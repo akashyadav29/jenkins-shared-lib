@@ -1,4 +1,4 @@
-// This Jenkinsfile is from previous repo " jenkins-python-app " using shared library.
+// This Jenkinsfile is from previous repo " jenkins-python-app " using shared library
 
 
 @Library("akash-lib") _
