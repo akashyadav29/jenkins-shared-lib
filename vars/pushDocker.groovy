@@ -1,5 +1,5 @@
 def call(imageName, credId) {
-    withCredentials([usernamePassword(credentialsId: ${credId},
+    withCredentials([usernamePassword(credentialsId: "${credId}",
     usernameVariable: 'user', passwordVariable: 'pass')]) {
 
         sh "docker login -u ${env.user} -p ${env.pass}"
