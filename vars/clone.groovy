@@ -1,3 +1,3 @@
-def call(url, branch) {
-    git url: "${url}", branch: "${branchName}"
+def call(repoUrl, branchName) {
+    git url: "${repoUrl}", branch: "${branchName}"
 }
