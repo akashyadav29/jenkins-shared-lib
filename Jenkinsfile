@@ -13,7 +13,7 @@ pipeline{
         }
         stage("build image"){
             steps{
-                build("python-app")
+                build_image("python-app")
             }
         }
         stage("push to dockerhub"){
